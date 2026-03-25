@@ -1,0 +1,11 @@
+{
+	"app_version": "1.0.3",
+	"download_url": {
+		"android": "",
+		"windows": "",
+		"linux": "",
+		"macos": ""
+	},
+	"release_name": "NULLNET Connect v1.0.3-beta",
+	"is_pre_release": true
+}
