@@ -1,11 +1,11 @@
 {
-	"app_version": "1.0.5",
+	"app_version": "1.0.6",
 	"download_url": {
-		"android": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/tag/v1.0.5-beta",
+		"android": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/tag/v1.0.6-beta",
 		"windows": "",
 		"linux": "",
 		"macos": ""
 	},
-	"release_name": "NULLNET Connect v1.0.5-beta",
+	"release_name": "NULLNET Connect v1.0.6-beta",
 	"is_pre_release": true
 }
