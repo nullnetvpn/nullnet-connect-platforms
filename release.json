@@ -1,14 +1,14 @@
 {
-	"app_version": "2.4.0",
+	"app_version": "2.5.0",
 	"download_url": {
-		"android": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/download/v2.4.0/app-android.apk",
-		"windows": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/download/v2.4.0/app-win.exe",
-		"linux": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/v2.4.0/",
+		"android": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/download/v2.5.0/app-android.apk",
+		"windows": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/download/v2.5.0/app-win.exe",
+		"linux": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/v2.5.0/",
 		"linux_deb": "",
 		"linux_rpm": "",
 		"linux_AppImage": "",
 		"macos": ""
 	},
-	"release_name": "NULLNET Connect v2.4.0",
+	"release_name": "NULLNET Connect v2.5.0",
 	"is_pre_release": false
 }
