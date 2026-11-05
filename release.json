@@ -1,15 +1,15 @@
 {
-	"app_version": "3.0.0",
+	"app_version": "3.0.1",
 	"download_url": {
-		"android": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/download/v3.0.0/app-android.apk",
-		"windows": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/download/v3.0.0/app-win.exe",
-		"linux": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/v3.0.0/",
-		"linux_deb": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/download/v3.0.0/app-linux.deb",
-		"linux_rpm": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/download/v3.0.0/app-linux.rpm",
-		"linux_AppImage": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/download/v3.0.0/app-linux.AppImage",
+		"android": "https://static.nullnet.online/app/prod/latest.apk",
+		"windows": "https://static.nullnet.online/app/prod/latest.exe",
+		"linux": "https://static.nullnet.online/app/prod/",
+		"linux_deb": "https://static.nullnet.online/app/prod/latest.deb",
+		"linux_rpm": "https://static.nullnet.online/app/prod/latest.rpm",
+		"linux_AppImage": "https://static.nullnet.online/app/prod/latest.AppImage",
 		"macos": ""
 	},
-	"release_name": "NULLNET Connect v3.0.0",
+	"release_name": "NULLNET Connect v3.0.1",
 	"is_pre_release": false,
 	"is_important_update": false
 }
