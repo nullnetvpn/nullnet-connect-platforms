@@ -1,5 +1,5 @@
 {
-	"app_version": "2.6.5",
+	"app_version": "3.0.0",
 	"download_url": {
 		"android": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/download/v3.0.0/app-android.apk",
 		"windows": "https://github.com/nullnetvpn/nullnet-connect-platforms/releases/download/v3.0.0/app-win.exe",
