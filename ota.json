@@ -1,0 +1,325 @@
+{
+  "version": "3.0.1",
+  "android": {
+    "target_sha256": "0bd87fca13304b4727c3a9c3aa398a78456301a64d5abceb44719921f9fa927c",
+    "target_size": 44919316,
+    "patches": [
+      {
+        "from_version": "3.0.0",
+        "from_sha256": "aefc7d5d5d39e688eb244cff1c9d5c54e522e1527b4619e0997955b36c4a250f",
+        "url": "https://static.nullnet.online/app/prod/ota/4d81cdc11a77e5606e1a7f39d61df12a45828ebd824f11349879ae7895cc95eb.zst",
+        "sha256": "4d81cdc11a77e5606e1a7f39d61df12a45828ebd824f11349879ae7895cc95eb",
+        "size": 7979040
+      },
+      {
+        "from_version": "3.0.0-beta.10",
+        "from_sha256": "1f8e8e733e08d621cfb0b11db5903dfd51202556a69467df17d9fdf687a047f0",
+        "url": "https://static.nullnet.online/app/prod/ota/5512f5df3432fdd5a3d57253d75005c4a3caee9e1d330d777f8c1efd0e500417.zst",
+        "sha256": "5512f5df3432fdd5a3d57253d75005c4a3caee9e1d330d777f8c1efd0e500417",
+        "size": 24268278
+      },
+      {
+        "from_version": "3.0.0-beta.9",
+        "from_sha256": "9db260f4b6e68190e34966b76bdb6e24bfa140cd36da61f5aafd3b2ee081173e",
+        "url": "https://static.nullnet.online/app/prod/ota/63f9970580d155fc436a1aca77bfb754513a007af74ab094780ec72282324b1c.zst",
+        "sha256": "63f9970580d155fc436a1aca77bfb754513a007af74ab094780ec72282324b1c",
+        "size": 24351637
+      },
+      {
+        "from_version": "3.0.0-beta.8",
+        "from_sha256": "f10c90edee216372b21cbfe2075cde3ced082bdd94b7c62cb59502706810f591",
+        "url": "https://static.nullnet.online/app/prod/ota/5cb3101cd6647d80485f7efae6f5145c108e3e68d064c953c27a3b80c748b38f.zst",
+        "sha256": "5cb3101cd6647d80485f7efae6f5145c108e3e68d064c953c27a3b80c748b38f",
+        "size": 24349084
+      }
+    ]
+  },
+  "windows": {
+    "bases": [
+      {
+        "from_version": "3.0.0",
+        "files": [
+          {
+            "path": "NULLNET.exe",
+            "op": "patch",
+            "from_sha256": "d516de39481decfe906a9b142f699577d1105be24728e3d5b7424db887e172e6",
+            "target_sha256": "23aa200eb975591feb95ec19fe65c01f1ec6468c268173f3fff2003acf65b5e8",
+            "target_size": 121344,
+            "url": "https://static.nullnet.online/app/prod/ota/fd01fcb6014cb31a740a67201df63111e2c97fd51c7c66ca8ecbb60d63844f4e.zst",
+            "sha256": "fd01fcb6014cb31a740a67201df63111e2c97fd51c7c66ca8ecbb60d63844f4e",
+            "size": 112
+          },
+          {
+            "path": "data/app.so",
+            "op": "patch",
+            "from_sha256": "411999e91da4a3203e517b3375f6cfd85a3e9f25d4448e24531ddfd5dedef1e6",
+            "target_sha256": "0ce6f7d9781ebb640c00647a30a9d3dbe790bd737bffe5ac3aadda012b49d837",
+            "target_size": 9454480,
+            "url": "https://static.nullnet.online/app/prod/ota/135751f298b6e65bd394e0dfa17fcd5ac224145060847b57cf2190db73c4123c.zst",
+            "sha256": "135751f298b6e65bd394e0dfa17fcd5ac224145060847b57cf2190db73c4123c",
+            "size": 557761
+          },
+          {
+            "path": "data/assets/bin/nullnet-policy.exe",
+            "op": "patch",
+            "from_sha256": "2a6f0e37bb2d4bc93119e6c4705a71aa00bf413f03ace54d582f5e86ae71ec7a",
+            "target_sha256": "aa6d1428a53dc4c2dcf24a51bb7fcb391a1118596c00dbc0408d55f8b60119db",
+            "target_size": 8535552,
+            "url": "https://static.nullnet.online/app/prod/ota/663f7a46338f907231d8fb4e1dc6fd5bed224e728bf52b12c4911dc61fa7369a.zst",
+            "sha256": "663f7a46338f907231d8fb4e1dc6fd5bed224e728bf52b12c4911dc61fa7369a",
+            "size": 622799
+          }
+        ]
+      },
+      {
+        "from_version": "3.0.0-beta.10",
+        "files": [
+          {
+            "path": "NULLNET.exe",
+            "op": "patch",
+            "from_sha256": "1729831b72047b60074346f9a42503752c06cef6634a4ee745ee3bfe18320638",
+            "target_sha256": "23aa200eb975591feb95ec19fe65c01f1ec6468c268173f3fff2003acf65b5e8",
+            "target_size": 121344,
+            "url": "https://static.nullnet.online/app/prod/ota/675efb8ef834cfffeb8b1fd639d14fd7c82bcb16343cc11be7ccc0f93b025947.zst",
+            "sha256": "675efb8ef834cfffeb8b1fd639d14fd7c82bcb16343cc11be7ccc0f93b025947",
+            "size": 115
+          },
+          {
+            "path": "data/app.so",
+            "op": "patch",
+            "from_sha256": "7e89dcde9a9df1618ba3d4a41ff95f9b2086c7f4c1e5658f49222bd86019c527",
+            "target_sha256": "0ce6f7d9781ebb640c00647a30a9d3dbe790bd737bffe5ac3aadda012b49d837",
+            "target_size": 9454480,
+            "url": "https://static.nullnet.online/app/prod/ota/7183a767a79baa3f76f9ce2d879db80ee10b71151f7a4adac6b29a4d3171671d.zst",
+            "sha256": "7183a767a79baa3f76f9ce2d879db80ee10b71151f7a4adac6b29a4d3171671d",
+            "size": 954417
+          },
+          {
+            "path": "data/assets/bin/Nullcore-MIHOMO-INTEGRATION.md",
+            "op": "patch",
+            "from_sha256": "5ad2295439c37e399dc70c3efd8e656c4255496f60284258e6a8c6f5e0cfb90b",
+            "target_sha256": "49b1939c46101127a79dfe4e4c7db5af77bdb849495e05468e3db29108f07c0b",
+            "target_size": 23514,
+            "url": "https://static.nullnet.online/app/prod/ota/b6551e29dfb9cfe488fd33f0d1a1197379ccff6d0adec4d71897e9f02c798c6f.zst",
+            "sha256": "b6551e29dfb9cfe488fd33f0d1a1197379ccff6d0adec4d71897e9f02c798c6f",
+            "size": 28
+          },
+          {
+            "path": "data/assets/bin/Nullcore-README.txt",
+            "op": "add",
+            "target_sha256": "bef01e4f8ec0505f7e71e04994119618018fc7e1a8e9e962440de8615cfca1bb",
+            "target_size": 288,
+            "url": "https://static.nullnet.online/app/prod/ota/55c129fc6001730d9852a001a86441619c6c91f2531198a4534146b354fb2431.zst",
+            "sha256": "55c129fc6001730d9852a001a86441619c6c91f2531198a4534146b354fb2431",
+            "size": 223
+          },
+          {
+            "path": "data/assets/bin/Nullcore-VALIDATION.md",
+            "op": "patch",
+            "from_sha256": "6461fc178726d307beadce25d91f0b9e6c8bc1f2a621fdef1a86e5bac38341bf",
+            "target_sha256": "89ad7303b34e8d604076ec46a8205b1f4c7be64ef43bc569f31e6518daf4c057",
+            "target_size": 7508,
+            "url": "https://static.nullnet.online/app/prod/ota/a2df30d6180336e7e02696111483025e9b9e23e01faceeead596b2718eafbc07.zst",
+            "sha256": "a2df30d6180336e7e02696111483025e9b9e23e01faceeead596b2718eafbc07",
+            "size": 40
+          },
+          {
+            "path": "data/assets/bin/Nullcore-manifest.json",
+            "op": "add",
+            "target_sha256": "4448205905853dfcb4c7b138fe4c092c14e2da0c80b4f41cfb7910e48907b087",
+            "target_size": 485,
+            "url": "https://static.nullnet.online/app/prod/ota/0d110a3694f373b93baede6d30be73473f5700dc570435d4d210c9521f7617f4.zst",
+            "sha256": "0d110a3694f373b93baede6d30be73473f5700dc570435d4d210c9521f7617f4",
+            "size": 308
+          },
+          {
+            "path": "data/assets/bin/nullcore.exe",
+            "op": "patch",
+            "from_sha256": "23ee1e40f86eedc0ff54491c12dff9cfccd780ad188add57833996754c0282a6",
+            "target_sha256": "d8d81622bcf9339ca3cc23e8273181d2cdbf16513070273f9425cb8cbcf7aaab",
+            "target_size": 49252352,
+            "url": "https://static.nullnet.online/app/prod/ota/72ea1c4110ccde2b25012efa5ec32612680beed4fd84ac19e8e6a794e1878621.zst",
+            "sha256": "72ea1c4110ccde2b25012efa5ec32612680beed4fd84ac19e8e6a794e1878621",
+            "size": 3765917
+          },
+          {
+            "path": "data/assets/bin/nullnet-policy.exe",
+            "op": "patch",
+            "from_sha256": "fd53c956006f11f538ceba6e84174c66ff3c9018a0f6aba540f44c1d02f9e209",
+            "target_sha256": "aa6d1428a53dc4c2dcf24a51bb7fcb391a1118596c00dbc0408d55f8b60119db",
+            "target_size": 8535552,
+            "url": "https://static.nullnet.online/app/prod/ota/01c2dd2fe0765f9a576afbcc62f19f29ebd9bcd153e9f0c5d1d6838b048e5604.zst",
+            "sha256": "01c2dd2fe0765f9a576afbcc62f19f29ebd9bcd153e9f0c5d1d6838b048e5604",
+            "size": 770941
+          }
+        ]
+      },
+      {
+        "from_version": "3.0.0-beta.9",
+        "files": [
+          {
+            "path": "NULLNET.exe",
+            "op": "patch",
+            "from_sha256": "f580066b72e3cc8b936009e44f7dbb9dc7ce8e1b99110009a3e0da27fc65bd38",
+            "target_sha256": "23aa200eb975591feb95ec19fe65c01f1ec6468c268173f3fff2003acf65b5e8",
+            "target_size": 121344,
+            "url": "https://static.nullnet.online/app/prod/ota/bc6bf85be51b5f5103bd7d70b78c645b4ba42cbed92171c8142403ab39e38c95.zst",
+            "sha256": "bc6bf85be51b5f5103bd7d70b78c645b4ba42cbed92171c8142403ab39e38c95",
+            "size": 118
+          },
+          {
+            "path": "data/app.so",
+            "op": "patch",
+            "from_sha256": "f82f450ceacbd1f1ee880799ffab48d080c6f887b9040d0090e1b58da30d4570",
+            "target_sha256": "0ce6f7d9781ebb640c00647a30a9d3dbe790bd737bffe5ac3aadda012b49d837",
+            "target_size": 9454480,
+            "url": "https://static.nullnet.online/app/prod/ota/9882a025542a4c95baffe9cfb77f07286b1a64bacc1b7d4016f79460661d2132.zst",
+            "sha256": "9882a025542a4c95baffe9cfb77f07286b1a64bacc1b7d4016f79460661d2132",
+            "size": 1315437
+          },
+          {
+            "path": "data/assets/bin/Nullcore-MIHOMO-INTEGRATION.md",
+            "op": "patch",
+            "from_sha256": "5ad2295439c37e399dc70c3efd8e656c4255496f60284258e6a8c6f5e0cfb90b",
+            "target_sha256": "49b1939c46101127a79dfe4e4c7db5af77bdb849495e05468e3db29108f07c0b",
+            "target_size": 23514,
+            "url": "https://static.nullnet.online/app/prod/ota/b6551e29dfb9cfe488fd33f0d1a1197379ccff6d0adec4d71897e9f02c798c6f.zst",
+            "sha256": "b6551e29dfb9cfe488fd33f0d1a1197379ccff6d0adec4d71897e9f02c798c6f",
+            "size": 28
+          },
+          {
+            "path": "data/assets/bin/Nullcore-README.txt",
+            "op": "add",
+            "target_sha256": "bef01e4f8ec0505f7e71e04994119618018fc7e1a8e9e962440de8615cfca1bb",
+            "target_size": 288,
+            "url": "https://static.nullnet.online/app/prod/ota/55c129fc6001730d9852a001a86441619c6c91f2531198a4534146b354fb2431.zst",
+            "sha256": "55c129fc6001730d9852a001a86441619c6c91f2531198a4534146b354fb2431",
+            "size": 223
+          },
+          {
+            "path": "data/assets/bin/Nullcore-VALIDATION.md",
+            "op": "patch",
+            "from_sha256": "6461fc178726d307beadce25d91f0b9e6c8bc1f2a621fdef1a86e5bac38341bf",
+            "target_sha256": "89ad7303b34e8d604076ec46a8205b1f4c7be64ef43bc569f31e6518daf4c057",
+            "target_size": 7508,
+            "url": "https://static.nullnet.online/app/prod/ota/a2df30d6180336e7e02696111483025e9b9e23e01faceeead596b2718eafbc07.zst",
+            "sha256": "a2df30d6180336e7e02696111483025e9b9e23e01faceeead596b2718eafbc07",
+            "size": 40
+          },
+          {
+            "path": "data/assets/bin/Nullcore-manifest.json",
+            "op": "add",
+            "target_sha256": "4448205905853dfcb4c7b138fe4c092c14e2da0c80b4f41cfb7910e48907b087",
+            "target_size": 485,
+            "url": "https://static.nullnet.online/app/prod/ota/0d110a3694f373b93baede6d30be73473f5700dc570435d4d210c9521f7617f4.zst",
+            "sha256": "0d110a3694f373b93baede6d30be73473f5700dc570435d4d210c9521f7617f4",
+            "size": 308
+          },
+          {
+            "path": "data/assets/bin/nullcore.exe",
+            "op": "patch",
+            "from_sha256": "23ee1e40f86eedc0ff54491c12dff9cfccd780ad188add57833996754c0282a6",
+            "target_sha256": "d8d81622bcf9339ca3cc23e8273181d2cdbf16513070273f9425cb8cbcf7aaab",
+            "target_size": 49252352,
+            "url": "https://static.nullnet.online/app/prod/ota/72ea1c4110ccde2b25012efa5ec32612680beed4fd84ac19e8e6a794e1878621.zst",
+            "sha256": "72ea1c4110ccde2b25012efa5ec32612680beed4fd84ac19e8e6a794e1878621",
+            "size": 3765917
+          },
+          {
+            "path": "data/assets/bin/nullnet-policy.exe",
+            "op": "patch",
+            "from_sha256": "fd53c956006f11f538ceba6e84174c66ff3c9018a0f6aba540f44c1d02f9e209",
+            "target_sha256": "aa6d1428a53dc4c2dcf24a51bb7fcb391a1118596c00dbc0408d55f8b60119db",
+            "target_size": 8535552,
+            "url": "https://static.nullnet.online/app/prod/ota/01c2dd2fe0765f9a576afbcc62f19f29ebd9bcd153e9f0c5d1d6838b048e5604.zst",
+            "sha256": "01c2dd2fe0765f9a576afbcc62f19f29ebd9bcd153e9f0c5d1d6838b048e5604",
+            "size": 770941
+          }
+        ]
+      },
+      {
+        "from_version": "3.0.0-beta.8",
+        "files": [
+          {
+            "path": "NULLNET.exe",
+            "op": "patch",
+            "from_sha256": "0f8acd3ddb9ed6a4c4afe0fc319ae3b9401194b4e9b2d8abfdeb31dc4b0a58d7",
+            "target_sha256": "23aa200eb975591feb95ec19fe65c01f1ec6468c268173f3fff2003acf65b5e8",
+            "target_size": 121344,
+            "url": "https://static.nullnet.online/app/prod/ota/d2344c3435d903a36c90b4594ff3d94b2ff174fb1a21ef05ae34d4284c90c03e.zst",
+            "sha256": "d2344c3435d903a36c90b4594ff3d94b2ff174fb1a21ef05ae34d4284c90c03e",
+            "size": 122
+          },
+          {
+            "path": "data/app.so",
+            "op": "patch",
+            "from_sha256": "ff39db916f8003b40062c53ec2e5fdac8544b5d780d9df9db989587bcbfa1d8f",
+            "target_sha256": "0ce6f7d9781ebb640c00647a30a9d3dbe790bd737bffe5ac3aadda012b49d837",
+            "target_size": 9454480,
+            "url": "https://static.nullnet.online/app/prod/ota/40250effeae35a0b08214ed6c8c287571d93a5cf75bb3f3cdbb2bb6b94f423e2.zst",
+            "sha256": "40250effeae35a0b08214ed6c8c287571d93a5cf75bb3f3cdbb2bb6b94f423e2",
+            "size": 1314600
+          },
+          {
+            "path": "data/assets/bin/Nullcore-MIHOMO-INTEGRATION.md",
+            "op": "patch",
+            "from_sha256": "5ad2295439c37e399dc70c3efd8e656c4255496f60284258e6a8c6f5e0cfb90b",
+            "target_sha256": "49b1939c46101127a79dfe4e4c7db5af77bdb849495e05468e3db29108f07c0b",
+            "target_size": 23514,
+            "url": "https://static.nullnet.online/app/prod/ota/b6551e29dfb9cfe488fd33f0d1a1197379ccff6d0adec4d71897e9f02c798c6f.zst",
+            "sha256": "b6551e29dfb9cfe488fd33f0d1a1197379ccff6d0adec4d71897e9f02c798c6f",
+            "size": 28
+          },
+          {
+            "path": "data/assets/bin/Nullcore-README.txt",
+            "op": "add",
+            "target_sha256": "bef01e4f8ec0505f7e71e04994119618018fc7e1a8e9e962440de8615cfca1bb",
+            "target_size": 288,
+            "url": "https://static.nullnet.online/app/prod/ota/55c129fc6001730d9852a001a86441619c6c91f2531198a4534146b354fb2431.zst",
+            "sha256": "55c129fc6001730d9852a001a86441619c6c91f2531198a4534146b354fb2431",
+            "size": 223
+          },
+          {
+            "path": "data/assets/bin/Nullcore-VALIDATION.md",
+            "op": "patch",
+            "from_sha256": "6461fc178726d307beadce25d91f0b9e6c8bc1f2a621fdef1a86e5bac38341bf",
+            "target_sha256": "89ad7303b34e8d604076ec46a8205b1f4c7be64ef43bc569f31e6518daf4c057",
+            "target_size": 7508,
+            "url": "https://static.nullnet.online/app/prod/ota/a2df30d6180336e7e02696111483025e9b9e23e01faceeead596b2718eafbc07.zst",
+            "sha256": "a2df30d6180336e7e02696111483025e9b9e23e01faceeead596b2718eafbc07",
+            "size": 40
+          },
+          {
+            "path": "data/assets/bin/Nullcore-manifest.json",
+            "op": "add",
+            "target_sha256": "4448205905853dfcb4c7b138fe4c092c14e2da0c80b4f41cfb7910e48907b087",
+            "target_size": 485,
+            "url": "https://static.nullnet.online/app/prod/ota/0d110a3694f373b93baede6d30be73473f5700dc570435d4d210c9521f7617f4.zst",
+            "sha256": "0d110a3694f373b93baede6d30be73473f5700dc570435d4d210c9521f7617f4",
+            "size": 308
+          },
+          {
+            "path": "data/assets/bin/nullcore.exe",
+            "op": "patch",
+            "from_sha256": "1cddaaaf367dcae20d442693d37fad291eb99962f47237bb98c2dde8ae18580e",
+            "target_sha256": "d8d81622bcf9339ca3cc23e8273181d2cdbf16513070273f9425cb8cbcf7aaab",
+            "target_size": 49252352,
+            "url": "https://static.nullnet.online/app/prod/ota/27d0931496211f368e987e50237a6b0bba0036646918bcfa8d34693a9c75ea78.zst",
+            "sha256": "27d0931496211f368e987e50237a6b0bba0036646918bcfa8d34693a9c75ea78",
+            "size": 3793744
+          },
+          {
+            "path": "data/assets/bin/nullnet-policy.exe",
+            "op": "patch",
+            "from_sha256": "fd53c956006f11f538ceba6e84174c66ff3c9018a0f6aba540f44c1d02f9e209",
+            "target_sha256": "aa6d1428a53dc4c2dcf24a51bb7fcb391a1118596c00dbc0408d55f8b60119db",
+            "target_size": 8535552,
+            "url": "https://static.nullnet.online/app/prod/ota/01c2dd2fe0765f9a576afbcc62f19f29ebd9bcd153e9f0c5d1d6838b048e5604.zst",
+            "sha256": "01c2dd2fe0765f9a576afbcc62f19f29ebd9bcd153e9f0c5d1d6838b048e5604",
+            "size": 770941
+          }
+        ]
+      }
+    ]
+  }
+}
